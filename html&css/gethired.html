@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- <meta> -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find a job | Robert halfs</title>
+
+    <!-- favicon -->
+    <link rel="icon" href="../images/favicon.jpg">
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/6016b92158.js" crossorigin="anonymous"></script>
+
+    <!-- styling link -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <!-- the header for -->
+
+    <section id="title">
+
+        <!-- navbar left -->
+        <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+            <a class="navbar-brand" href="#"><img class="logo" src="../images/navbarimage.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- responsive navbar right  -->
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Jobs <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+    </section>
+    <hr>
+
+    <!-- the head for contact pages -->
+
+    <aside>
+
+
+        <section id="headercta">
+            <h1 class="">Get Hired by top companies. </h1>
+
+            <div class="row text-center ctah pt-4 mt-0">
+
+                <div class="col-lg-4 ">
+                    <img class="" src="../images/cta1img.png" width="80px" alt="">
+                    <p class=""><span class="thelink"> Millions </span> of professionals</p>
+                </div>
+
+                <div class="col-lg-4 ">
+                    <img class="" src="../images/cta2img.png" width="80px" alt="">
+                    <p class=""><span class="thelink"> AI-powered </span> matching</p>
+                </div>
+
+                <div class="col-lg-4">
+                    <img class="" src="../images/cta3img.png" width="80px" alt="">
+                    <p class=""><span class="thelink"> On-site </span> or <span class="thelink">remote-ready</span></p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- form details entry section -->
+
+        <h2 class="cinfo text-center bg-light border border-black">Contact information</h2>
+
+        <form class="needs-validation" novalidate>
+            <div class="form-row">
+                <div class="col-md-12 mb-3">
+                    <label for="validationCustom01">First name</label>
+                    <input type="text" class="form-control" id="validationCustom01" placeholder="First name" value=""
+                        required>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3 w-60">
+                    <label for="validationCustom02">Last name</label>
+                    <input type="text" class="form-control" id="validationCustom02" placeholder="Last name" value=""
+                        required>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <label for="validationCustomUsername">Username</label>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="inputGroupPrepend">@</span>
+                        </div>
+                        <input type="text" class="form-control" id="validationCustomUsername" placeholder="Username"
+                            aria-describedby="inputGroupPrepend" required>
+                        <div class="invalid-feedback">
+                            Please choose a username.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col-md-6 mb-3">
+                    <label for="validationCustom03">City</label>
+                    <input type="text" class="form-control" id="validationCustom03" placeholder="City" required>
+                    <div class="invalid-feedback">
+                        Please provide a valid city.
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <label for="validationCustom04">State</label>
+                    <input type="text" class="form-control" id="validationCustom04" placeholder="State" required>
+                    <div class="invalid-feedback">
+                        Please provide a valid state.
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <label for="validationCustom05">Zip</label>
+                    <input type="text" class="form-control" id="validationCustom05" placeholder="Zip" required>
+                    <div class="invalid-feedback">
+                        Please provide a valid zip.
+                    </div>
+                </div>
+            </div>
+
+            <div class="pst">
+            <div class="form-group">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                    <label class="form-check-label  mb-4" for="invalidCheck">
+                        Agree to terms and conditions
+                    </label>
+                    <div class="invalid-feedback">
+                        You must agree before submitting.
+                    </div>
+                </div>
+            </div>
+            <button class="btn btn-primary btn-outline-danger " type="submit">Submit form</button>
+        </form>
+    </div>
+    
+
+        <script>
+            // Example starter JavaScript for disabling form submissions if there are invalid fields
+            (function () {
+                'use strict';
+                window.addEventListener('load', function () {
+                    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                    var forms = document.getElementsByClassName('needs-validation');
+                    // Loop over them and prevent submission
+                    var validation = Array.prototype.filter.call(forms, function (form) {
+                        form.addEventListener('submit', function (event) {
+                            if (form.checkValidity() === false) {
+                                event.preventDefault();
+                                event.stopPropagation();
+                            }
+                            form.classList.add('was-validated');
+                        }, false)
+                    });
+                }, false);
+            })();
+        </script><br>
+
+        <!-- the footer for the contact page -->
+
+        
+    <section id="footer">
+        <div class="container">
+            <div class="row text-center text-xs-center text-sm-left text-md-left">
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <h5>Quick links</h5>
+                    <ul class="list-unstyled quick-links">
+                        <li><a href="#"><i class="fa fa-angle-double-right"></i>Home</a></li>
+                        <li><a href="#"><i class="fa fa-angle-double-right"></i>Jobs</a></li>
+                        <li><a href="#"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+                        <li><a href="#"><i class="fa fa-angle-double-right"></i>Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <section id="btn">
+                <div class="fontawesome">
+                    <i class="icon fa-brands fa-youtube"></i>
+                    <i class="icon fa-brands fa-github"></i>
+                    <i class="icon fa-brands fa-dev"></i>
+                    <i class="icon fa-brands fa-docker"></i>
+                </div>
+                <br><br>
+                <button type="button" class="sp btn btn-dark btn-outline-dark download-button"> <i
+                        class="fab fa-apple"></i>
+                    Download</button>
+
+                <button type="button" class="sp btn btn-dark btn-outline-dark download-button"> <i
+                        class="fab fa-google-play"></i>
+                    Download</button>
+                <br><br>
+                <p>© 2022 Robert Half International Inc. An Equal Opportunity Employer M/F/Disability/Veterans.</p>
+
+
+
+            </section>
+    </section>
+
+    </aside>
+</body>
+
+</html>
